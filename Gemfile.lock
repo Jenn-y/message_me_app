@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/doabit/semantic-ui-sass.git
+  revision: af590657254cc0051f5ef44b99eb60e63b2c21d8
+  specs:
+    semantic-ui-sass (2.4.2.0)
+      sassc
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -58,6 +65,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.4.8)
       msgpack (~> 1.0)
@@ -198,6 +206,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
@@ -207,6 +216,7 @@ DEPENDENCIES
   rails (~> 6.0.3, >= 6.0.3.2)
   sass-rails (>= 6)
   selenium-webdriver
+  semantic-ui-sass!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
